@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.junge.demo.features.enumdemo;
+package com.junge.demo.features.jdk5.enumdemo;
 
 /**
  * @author "liuxj"

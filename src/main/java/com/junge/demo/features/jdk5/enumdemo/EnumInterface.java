@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.junge.demo.features.enumdemo;
+package com.junge.demo.features.jdk5.enumdemo;
 
 /**
  * 枚举类实现接口 枚举不能继承自定义类，可以实现多个接口

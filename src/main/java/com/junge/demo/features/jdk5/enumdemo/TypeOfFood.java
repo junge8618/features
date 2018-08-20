@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.junge.demo.features.enumdemo;
+package com.junge.demo.features.jdk5.enumdemo;
 
-import com.junge.demo.features.enumdemo.Food.Appetizer;
-import com.junge.demo.features.enumdemo.Food.Coffee;
-import com.junge.demo.features.enumdemo.Food.Dessert;
-import com.junge.demo.features.enumdemo.Food.MainCourse;
+import com.junge.demo.features.jdk5.enumdemo.Food.Appetizer;
+import com.junge.demo.features.jdk5.enumdemo.Food.Coffee;
+import com.junge.demo.features.jdk5.enumdemo.Food.Dessert;
+import com.junge.demo.features.jdk5.enumdemo.Food.MainCourse;
 
 /**
  * @author "liuxj"

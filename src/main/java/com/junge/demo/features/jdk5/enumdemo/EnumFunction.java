@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.junge.demo.features.enumdemo;
+package com.junge.demo.features.jdk5.enumdemo;
 
 /**
  * 枚举编译器添加的方法
