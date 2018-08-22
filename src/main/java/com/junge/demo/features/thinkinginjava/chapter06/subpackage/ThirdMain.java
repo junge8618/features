@@ -17,6 +17,8 @@ public class ThirdMain {
 	public static void main(String[] args) {
 		PublicModifier pub = new PublicModifier();
 		pub.pubfun();
+		
+		//System.out.println(PackageModifier.count);
 	}
 
 }

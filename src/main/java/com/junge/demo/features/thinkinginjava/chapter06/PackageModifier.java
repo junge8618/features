@@ -9,6 +9,8 @@ package com.junge.demo.features.thinkinginjava.chapter06;
  *
  */
 class PackageModifier {
+	
+	public static int count = 0;
 
 	/**
 	 * @param args
