@@ -3,9 +3,6 @@
  */
 package com.junge.demo.features.thinkinginjava.chapter09.strategy;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * 描述类功能
  * @author "liuxj"
@@ -13,7 +10,7 @@ import java.util.List;
  */
 public class ApplyCake {
 	
-	public static void process(List<CakeProcessor> applyCakes) {
+	public static void process(Processor... applyCakes) {
 		for (Processor cake : applyCakes) {
 			cake.process("奶酪 面包");
 		}
@@ -26,7 +23,7 @@ public class ApplyCake {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ApplyCake.process(Arrays.asList(new BirthdayCake(), new MeetCake()));
+		ApplyCake.process(new BirthdayCake(), new MeetCake());
 
 	}
 
